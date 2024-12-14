@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8d62ad;
+  --color-primary-light: #ac8dc3;
+  --color-primary-lighter: #cebcdc;
+  --color-green: #6ba375;
+  --color-green-light: #a8d5aa;
+  --color-accent: #f3c623;
+  --color-lavender: #E6E6FA;
+  --color-metallic-silver: #C0C0C0;
+  --color-sage-green: #8A9488;
+  --color-light-gray: #D3D3D3;
+}
+
+@layer base {
+  body {
+    @apply font-merriweather text-gray-800;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-bold;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-primary-lighter) 0%, var(--color-primary) 100%);
+}

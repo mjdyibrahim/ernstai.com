@@ -1,0 +1,132 @@
+{
+  "menu": {
+    "home": "الرئيسية",
+    "about": "عن الشركة",
+    "products": "المنتجات",
+    "technology": "التكنولوجيا",
+    "community": "المجتمع",
+    "blog": "المدونة",
+    "solutions": "الحلول"
+  },
+  "contact_us": "اتصل بنا",
+  "hero": {
+    "title": "تأصيل الذكاء الاصطناعي من خلال الضمير والمجتمع والطبيعة",
+    "description": "نقود مستقبل الذكاء الاصطناعي بنهج يقوده الضمير يناغم بين التكنولوجيا والقيم الإنسانية وحكمة الطبيعة",
+    "explore_mission": "اكتشف مهمتنا",
+    "discover_solutions": "اكتشف حلولنا"
+  },
+  "solutions": {
+    "title": "حلولنا",
+    "subtitle": "أطر عمل ومنتجات الذكاء الاصطناعي المبتكرة لمستقبل واعٍ",
+    "frameworks": {
+      "title": "أطر عمل الذكاء الاصطناعي",
+      "subtitle": "اكتشف أطر عمل الذكاء الاصطناعي المبتكرة لدينا المصممة لإحداث ثورة في كيفية خدمة الذكاء الاصطناعي للإنسانية والطبيعة",
+      "items": {
+        "conscienceos": {
+          "id": "conscienceos",
+          "name": "ConscienceOS",
+          "description": "دمج مبادئ الوعي في أنظمة الذكاء الاصطناعي",
+          "icon": "i-heroicons-heart",
+          "color": "purple"
+        },
+        "communityos": {
+          "id": "communityos",
+          "name": "CommunityOS",
+          "description": "بناء أنظمة ذكاء اصطناعي تعزز الروابط الإنسانية",
+          "icon": "i-heroicons-users",
+          "color": "primary"
+        },
+        "governanceos": {
+          "id": "governanceos",
+          "name": "GovernanceOS",
+          "description": "إطار عمل ذكاء اصطناعي أخلاقي لاتخاذ القرارات المسؤولة",
+          "icon": "i-heroicons-scale",
+          "color": "blue"
+        },
+        "natureos": {
+          "id": "natureos",
+          "name": "NatureOS",
+          "description": "إطار عمل ذكاء اصطناعي مستوحى من حكمة الطبيعة",
+          "icon": "i-heroicons-sun",
+          "color": "green"
+        }
+      }
+    },
+    "products": {
+      "title": "المنتجات",
+      "learn_more": "اعرف المزيد",
+      "items": {
+        "lyla": {
+          "id": "lyla",
+          "name": "Lyla",
+          "description": "مساعد سفر ذكي يثري رحلتك بتجارب سفر واعية",
+          "icon": "i-heroicons-globe-alt"
+        },
+        "senu": {
+          "id": "senu",
+          "name": "Senu",
+          "description": "مساعد رواد الأعمال الذكي لدعم تطوير الأعمال الواعية",
+          "icon": "i-heroicons-briefcase"
+        },
+        "jarvis": {
+          "id": "jarvis",
+          "name": "Jarvis",
+          "description": "رفيق إنتاجية ذكي يعزز التوازن بين العمل والحياة",
+          "icon": "i-heroicons-cpu-chip"
+        },
+        "wazir": {
+          "id": "wazir",
+          "name": "Wazir",
+          "description": "مساعد حوكمة ذكي لاتخاذ قرارات قيادية أخلاقية",
+          "icon": "i-heroicons-building-library"
+        },
+        "asknature": {
+          "id": "asknature",
+          "name": "AskNature",
+          "description": "مستشار ذكي لاتخاذ القرارات المستوحاة من الطبيعة",
+          "icon": "i-heroicons-tree"
+        },
+        "healing-officer": {
+          "id": "healing-officer",
+          "name": "Chief Healing Officer",
+          "description": "مستشار ذكي للشفاء البديل من أجل العافية الشاملة",
+          "icon": "i-heroicons-heart"
+        }
+      }
+    }
+  },
+  "vision": {
+    "title": "رؤيتنا",
+    "subtitle": "اكتشف كيف نعيد تشكيل تطوير الذكاء الاصطناعي من خلال منهجيتنا الفريدة.",
+    "items": [
+      {
+        "id": "green-futures",
+        "title": "مستقبل أخضر",
+        "description": "تطوير حلول ذكاء اصطناعي تركز على الاستدامة البيئية والتناغم الاقتصادي.",
+        "icon": "i-heroicons-globe-americas",
+        "image": "/images/green-futures.jpg"
+      },
+      {
+        "id": "ai-as-servant",
+        "title": "الذكاء الاصطناعي كخادم",
+        "description": "إنشاء أنظمة ذكاء اصطناعي تعزز الإمكانيات البشرية مع احترام الاستقلالية البشرية.",
+        "icon": "i-heroicons-heart",
+        "image": "/images/ai-as-servant.jpg"
+      },
+      {
+        "id": "global-peace",
+        "title": "السلام العالمي",
+        "description": "تعزيز الفهم والتعاون من خلال حلول مدفوعة بالذكاء الاصطناعي.",
+        "icon": "i-heroicons-sparkles",
+        "image": "/images/global-peace.jpg"
+      },
+      {
+        "id": "innovative-education",
+        "title": "التعليم المبتكر",
+        "description": "الاستفادة من الذكاء الاصطناعي لتعزيز تجارب التعلم وإمكانية الوصول للجميع.",
+        "icon": "i-heroicons-book-open",
+        "image": "/images/innovative-education.jpg"
+      }
+    ]
+  }
+}

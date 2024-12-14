@@ -1,0 +1,165 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "technology": "Technology",
+    "community": "Community",
+    "blog": "Blog",
+    "solutions": "Solutions"
+  },
+  "contact_us": "Contact Us",
+  "hero": {
+    "title": "Humanizing AI through Conscience, Community, and Nature",
+    "description": "Pioneering the future of AI with a conscience-driven approach that harmonizes technology with human values and natural wisdom.",
+    "explore_mission": "Explore Our Mission",
+    "discover_solutions": "Discover Our Solutions"
+  },
+
+  "solutions": {
+    "title": "Our Solutions",
+    "subtitle": "Innovative AI frameworks and products for a conscious future",
+    "frameworks": {
+      "title": "Our AI Frameworks",
+      "subtitle": "Our AI Frameworks are the building blocks for achieving our vision of sustainability, empowerment, and unity.",
+      "learn_more": "Learn more",
+      "items": {
+        "conscienceos": {
+          "id": "conscienceos",
+          "name": "ConscienceOS",
+          "description": "Simulating Conscience-driven decision making into AI systems.",
+          "icon": "i-heroicons-heart",
+          "color": "purple"
+        },
+        "communityos": {
+          "id": "communityos",
+          "name": "CommunityOS",
+          "description": "Building AI systems that strengthen human connections.",
+          "icon": "i-heroicons-users",
+          "color": "primary"
+        },
+        "governanceos": {
+          "id": "governanceos",
+          "name": "GovernanceOS",
+          "description": "Ethical AI framework for responsible decision-making.",
+          "icon": "i-heroicons-scale",
+          "color": "blue"
+        },
+        "natureos": {
+          "name": "NatureOS",
+          "description": "Bio-inspired AI framework that learns from nature's wisdom.",
+          "icon": "i-heroicons-sun",
+          "color": "green"
+        }
+      }
+    }
+  },
+
+  "products": {
+    "title": "Products",
+    "learn_more": "Learn more",
+    "items": {
+      "lyla": {
+        "id": "lyla",
+        "name": "Lyla",
+        "description": "AI Travel Assistant enriching your journey with conscious travel experiences.",
+        "icon": "i-heroicons-globe-alt"
+      },
+      "senu": {
+        "id": "senu",
+        "name": "Senu",
+        "description": "AI Entrepreneur Copilot supporting conscious business development.",
+        "icon": "i-heroicons-briefcase"
+      },
+      "jarvis": {
+        "id": "jarvis",
+        "name": "Jarvis",
+        "description": "AI Productivity Companion enhancing work-life harmony.",
+        "icon": "i-heroicons-cpu-chip"
+      },
+      "wazir": {
+        "id": "wazir",
+        "name": "Wazir",
+        "description": "AI Governance Assistant for ethical leadership decisions.",
+        "icon": "i-heroicons-building-library"
+      },
+      "asknature": {
+        "id": "asknature",
+        "name": "AskNature",
+        "description": "AI Nature-Inspired Decision-making Advisor.",
+        "icon": "i-heroicons-tree"
+      },
+      "healing-officer": {
+        "id": "healing-officer",
+        "name": "Chief Healing Officer",
+        "description": "AI Alternative Healing Advisor for holistic wellness.",
+        "icon": "i-heroicons-heart"
+      }
+    }
+  },
+
+  "vision": {
+    "title": "Our Vision",
+    "subtitle": "Redefining AI for a sustainable, empowering, and harmonious future.",
+    "description": "We are committed to developing AI solutions that serve humanity and the planet, fostering innovation, sustainability, and cooperation. Through our work, we aim to enhance lives, promote global understanding, and inspire positive change.",
+    "items": {
+      "sustainability": {
+        "id": "sustainability",
+        "title": "Sustainability and Harmony",
+        "description": "Creating AI systems that prioritize environmental responsibility and global harmony.",
+        "icon": "i-heroicons-globe-americas",
+        "color": "purple",
+        "image": "/images/green-futures.jpg"
+      },
+      "human-empowerment": {
+        "id": "human-empowerment",
+        "title": "Human Empowerment",
+        "description": "Empowering individuals and communities through AI tools that respect autonomy and inspire innovation.",
+        "icon": "i-heroicons-heart",
+        "color": "red",
+        "image": "/images/ai-as-servant.jpg"
+      },
+      "united-progress": {
+        "id": "united-progress",
+        "title": "United Progress",
+        "description": "Driving collaboration and understanding to address global challenges with AI-driven solutions.",
+        "icon": "i-heroicons-sparkles",
+        "color": "blue",
+        "image": "/images/global-peace.jpg"
+      }
+
+    }
+  },
+
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "Guiding principles for building a transformative future with AI.",
+    "items": {
+    "ascending-consciousness": {
+      "id": "ascending-consciousness",
+      "title": "Ascending Conscience",
+      "description": "Advancing AI beyond computation to embody deeper awareness and understanding.",
+      "icon": "i-heroicons-lightbulb",
+      "color": "gold"
+      },
+    "restoring-authenticity": {
+      "id": "restoring-authenticity",
+      "title": "Restoring Authenticity",
+      "description": "Reintegrating genuine human values and natural wisdom into technological innovation.",
+      "icon": "i-heroicons-leaf",
+      "color": "green"
+      },
+    "instilling-unity": {
+        "id": "instilling-unity",
+        "title": "Instilling Unity",
+        "description": "Developing AI solutions that bridge divides and foster meaningful connections globally.",
+        "icon": "i-heroicons-handshake",
+        "color": "blue"
+      }
+    }
+  },
+  
+  "about": {
+    "introduction": "At Ernst AI, we are redefining what it means to create technology. Our mission is to harmonize AI development with the values of humanity and nature, creating systems that advance innovation responsibly."
+  }
+}
