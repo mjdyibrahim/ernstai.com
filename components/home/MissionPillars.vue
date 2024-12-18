@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-16">Our Mission Pillars</h2>
       <div class="grid md:grid-cols-3 gap-8">
-        <div v-for="(pillar, id) in pillars" 
+        <div v-for="(id, index) in ['ascending-consciousness', 'restoring-authenticity', 'instilling-unity']" 
           :key="id" 
           class="text-center p-6 rounded-lg hover:shadow-lg transition-shadow"
           >

@@ -7,7 +7,7 @@
       </p>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <FrameworkCard 
-          v-for="(framework, id) in frameworks" 
+          v-for="id in ['conscienceos', 'communityos', 'governanceos', 'natureos']" 
           :key="id"
           :framework="{
             id,
