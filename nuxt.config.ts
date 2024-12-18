@@ -1,5 +1,18 @@
 export default defineNuxtConfig({
   ssr: false,
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000
+  },
+  vite: {
+    server: {
+      hmr: {
+        protocol: 'ws',
+        host: '0.0.0.0',
+        port: 3001
+      }
+    }
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
