@@ -52,13 +52,9 @@ export const useLanguageStore = defineStore("language", {
         
         // Update route with language prefix
         const currentRoute = router.currentRoute.value;
-        const segments = currentRoute.path.split('/');
-        if (segments[1] && ["en", "ar", "ru"].includes(segments[1])) {
-          segments[1] = language;
-        } else {
-          segments.splice(1, 0, language);
-        }
-        const newPath = segments.join('/');
+        const pathWithoutLang = currentRoute.path.replace(/^\/(en|ar|ru)/, '');
+        const newPath = '/' + language + (pathWithoutLang || '/');
+        
         if (newPath !== currentRoute.path) {
           router.push(newPath);
         }

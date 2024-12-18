@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
-    "@nuxtjs/i18n",
+    ['@nuxtjs/i18n', {
+      strategy: 'prefix',
+      defaultLocale: 'en',
+      detectBrowserLanguage: false,
+    }],
     "@nuxt/content",
     "@nuxt/icon",
     "@pinia/nuxt",
