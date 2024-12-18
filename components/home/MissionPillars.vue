@@ -25,14 +25,12 @@ import IconNewUnity from '~/components/icons/IconNewUnity.vue'
 
 const { t } = useI18n();
 
-// Compute pillars based on the localization data
+// Dynamically get all mission items
 const pillars = computed(() => {
-  const items = t('mission.items')
-  return {
-    "ascending-consciousness": {},
-    "restoring-authenticity": {},
-    "instilling-unity": {}
-  }
+  return Object.keys(t('mission.items')).reduce((acc, key) => {
+    acc[key] = t(`mission.items.${key}`);
+    return acc;
+  }, {});
 });
 
 </script>
