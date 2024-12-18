@@ -1,17 +1,5 @@
 export default defineNuxtConfig({
   ssr: false,
-  nitro: {
-    devProxy: {
-      '/ws': {
-        target: 'ws://0.0.0.0:3000',
-        ws: true,
-      }
-    }
-  },
-  devServer: {
-    host: '0.0.0.0',
-    port: 3000
-  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
