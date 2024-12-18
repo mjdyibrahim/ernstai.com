@@ -16,7 +16,7 @@ export const useLanguageStore = defineStore("language", {
   },
 
   actions: {
-    initializeLanguage() {
+    async initializeLanguage() {
       if (process.server) return;
       
       const savedLang = localStorage?.getItem("language");
@@ -30,10 +30,10 @@ export const useLanguageStore = defineStore("language", {
         defaultLang
       ) as SupportedLanguage;
 
-      return this.setLanguage(initialLang);
+      return this.setLanguage(initialLang, true);
     },
 
-    async setLanguage(language: SupportedLanguage) {
+    async setLanguage(language: SupportedLanguage, updateStorage: boolean = true) {
       if (!["en", "ar", "ru"].includes(language)) {
         language = "en";
       }
@@ -44,7 +44,7 @@ export const useLanguageStore = defineStore("language", {
       const i18n = useNuxtApp().$i18n;
       await i18n.setLocale(language);
 
-      if (process.client) {
+      if (process.client && updateStorage) {
         localStorage.setItem("language", language);
         document.documentElement.dir = this.isRTL ? "rtl" : "ltr";
         document.documentElement.lang = language;

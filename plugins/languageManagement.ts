@@ -12,16 +12,18 @@ export default defineNuxtPlugin((nuxtApp) => {
     }
   };
 
-  nuxtApp.hook('page:start', () => {
+  nuxtApp.hook('page:finish', () => {
     const route = useRoute();
     const urlLang = route.path.split("/")[1];
     if (["en", "ar", "ru"].includes(urlLang)) {
-      languageStore.setLanguage(urlLang);
+      languageStore.setLanguage(urlLang, false);
       updateDocumentDirection(urlLang);
     }
   });
 
-  nuxtApp.vueApp.use(async (app) => {
-    await languageStore.initializeLanguage();
-  });
+  return {
+    provide: {
+      updateDocumentDirection
+    }
+  };
 });
