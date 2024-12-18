@@ -17,8 +17,10 @@ export const useLanguageStore = defineStore("language", {
 
   actions: {
     initializeLanguage() {
-      const savedLang = localStorage.getItem("language");
-      const browserLang = navigator.language.split("-")[0];
+      if (process.server) return;
+      
+      const savedLang = localStorage?.getItem("language");
+      const browserLang = navigator?.language?.split("-")[0];
       const defaultLang = "en";
       const supportedLanguages = ["en", "ar", "ru"];
 
@@ -42,9 +44,11 @@ export const useLanguageStore = defineStore("language", {
       const i18n = useNuxtApp().$i18n;
       await i18n.setLocale(language);
 
-      localStorage.setItem("language", language);
-      document.documentElement.dir = this.isRTL ? "rtl" : "ltr";
-      document.documentElement.lang = language;
+      if (process.client) {
+        localStorage.setItem("language", language);
+        document.documentElement.dir = this.isRTL ? "rtl" : "ltr";
+        document.documentElement.lang = language;
+      }
 
       return language;
     }

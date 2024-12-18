@@ -15,6 +15,36 @@
     "explore_mission": "Explore Our Mission",
     "discover_solutions": "Discover Our Solutions"
   },
+  "vision": {
+    "title": "Our Vision",
+    "subtitle": "Discover how we are reshaping AI development through our unique methodology.",
+    "items": {
+      "sustainability": {
+        "id": "sustainability",
+        "title": "Green Futures",
+        "description": "Developing AI solutions focused on environmental sustainability and harmony with nature",
+        "icon": "i-heroicons-globe-americas",
+        "color": "purple",
+        "image": "/images/green-futures.jpg"
+      },
+      "human-empowerment": {
+        "id": "human-empowerment",
+        "title": "AI as Servant",
+        "description": "Creating AI systems that enhance human capabilities while respecting human autonomy",
+        "icon": "i-heroicons-heart",
+        "color": "red",
+        "image": "/images/ai-as-servant.jpg"
+      },
+      "united-progress": {
+        "id": "united-progress",
+        "title": "Global Peace",
+        "description": "Fostering understanding and cooperation through AI-driven solutions",
+        "icon": "i-heroicons-sparkles",
+        "color": "blue",
+        "image": "/images/global-peace.jpg"
+      }
+    }
+  },
 
   "solutions": {
     "title": "Our Solutions",
@@ -29,7 +59,7 @@
           "name": "ConscienceOS",
           "description": "Simulating Conscience-driven decision making into AI systems.",
           "icon": "i-heroicons-heart",
-          "color": "purple"
+          "color": "purple-600"
         },
         "communityos": {
           "id": "communityos",
@@ -43,7 +73,7 @@
           "name": "GovernanceOS",
           "description": "Ethical AI framework for responsible decision-making.",
           "icon": "i-heroicons-scale",
-          "color": "blue"
+          "color": "blue-600"
         },
         "natureos": {
           "name": "NatureOS",
@@ -127,7 +157,6 @@
         "color": "blue",
         "image": "/images/global-peace.jpg"
       }
-
     }
   },
 
@@ -135,21 +164,21 @@
     "title": "Our Mission",
     "subtitle": "Guiding principles for building a transformative future with AI.",
     "items": {
-    "ascending-consciousness": {
-      "id": "ascending-consciousness",
-      "title": "Ascending Conscience",
-      "description": "Advancing AI beyond computation to embody deeper awareness and understanding.",
-      "icon": "i-heroicons-lightbulb",
-      "color": "gold"
+      "ascending-consciousness": {
+        "id": "ascending-consciousness",
+        "title": "Ascending Conscience",
+        "description": "Advancing AI beyond computation to embody deeper awareness and understanding.",
+        "icon": "i-heroicons-lightbulb",
+        "color": "gold"
       },
-    "restoring-authenticity": {
-      "id": "restoring-authenticity",
-      "title": "Restoring Authenticity",
-      "description": "Reintegrating genuine human values and natural wisdom into technological innovation.",
-      "icon": "i-heroicons-leaf",
-      "color": "green"
+      "restoring-authenticity": {
+        "id": "restoring-authenticity",
+        "title": "Restoring Authenticity",
+        "description": "Reintegrating genuine human values and natural wisdom into technological innovation.",
+        "icon": "i-heroicons-leaf",
+        "color": "green"
       },
-    "instilling-unity": {
+      "instilling-unity": {
         "id": "instilling-unity",
         "title": "Instilling Unity",
         "description": "Developing AI solutions that bridge divides and foster meaningful connections globally.",
@@ -158,7 +187,7 @@
       }
     }
   },
-  
+
   "about": {
     "introduction": "At Ernst AI, we are redefining what it means to create technology. Our mission is to harmonize AI development with the values of humanity and nature, creating systems that advance innovation responsibly."
   }
