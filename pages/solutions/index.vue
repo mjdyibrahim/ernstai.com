@@ -18,7 +18,7 @@
             <div v-for="(framework, id) in frameworks" :key="id" 
                  class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div :class="`w-12 h-12 rounded-lg ${colorClasses[framework.color]} flex items-center justify-center mb-4`">
-                <Icon :name="framework.icon" class="w-6 h-6 text-white" />
+                <Icon :name="framework.icon || 'i-heroicons-sparkles'" class="w-6 h-6 text-white" />
               </div>
               <h3 class="text-xl font-bold mb-2">{{ framework.name }}</h3>
               <p class="text-gray-600">{{ framework.description }}</p>
