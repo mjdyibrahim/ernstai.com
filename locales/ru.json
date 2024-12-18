@@ -1,3 +1,4 @@
+
 {
   "menu": {
     "home": "Главная",
@@ -15,121 +16,61 @@
     "explore_mission": "Узнать о нашей миссии",
     "discover_solutions": "Открыть наши решения"
   },
-
-  "solutions": {
-    "title": "Наши Решения",
-    "subtitle": "Инновационные AI-фреймворки и продукты для осознанного будущего",
-    "frameworks": {
-      "title": "Наши AI-Фре��мворки",
-      "subtitle": "Откройте для себя наши инновационные AI-фреймворки, созданные для революционного изменения служения ИИ человечеству и природе",
-      "items": {
-        "conscienceos": {
-          "id": "conscienceos",
-          "name": "ConscienceOS",
-          "description": "Интеграция принципов сознания в AI-системы",
-          "icon": "i-heroicons-heart",
-          "color": "purple"
-        },
-        "communityos": {
-          "id": "communityos",
-          "name": "CommunityOS",
-          "description": "Создание AI-систем, укрепляющих связи между людьми",
-          "icon": "i-heroicons-users",
-          "color": "primary"
-        },
-        "governanceos": {
-          "id": "governanceos",
-          "name": "GovernanceOS",
-          "description": "Этичный AI-фреймворк для ответственного принятия решений",
-          "icon": "i-heroicons-scale",
-          "color": "blue"
-        },
-        "natureos": {
-          "id": "natureos",
-          "name": "NatureOS",
-          "description": "Биоинспирированный AI-фреймворк, который учится на мудрости природы",
-          "icon": "i-heroicons-sun",
-          "color": "green"
-        }
-      }
-    }
-  },
-
-  "products": {
-    "title": "Продукты",
-    "learn_more": "Узнать больше",
-    "items": {
-      "lyla": {
-        "id": "lyla",
-        "name": "Lyla",
-        "description": "AI-ассистент для путешествий, обогащающий ваше путешествие осознанным опытом",
-        "icon": "i-heroicons-globe-alt"
-      },
-      "senu": {
-        "id": "senu",
-        "name": "Senu",
-        "description": "AI-копилот для предпринимателей, поддерживающий осознанное развитие бизнеса",
-        "icon": "i-heroicons-briefcase"
-      },
-      "jarvis": {
-        "id": "jarvis",
-        "name": "Jarvis",
-        "description": "AI-компаньон для продуктивности, улучшающий баланс работы и жизни",
-        "icon": "i-heroicons-cpu-chip"
-      },
-      "wazir": {
-        "id": "wazir",
-        "name": "Wazir",
-        "description": "AI-ассистент по управлению для этичных лидерских решений",
-        "icon": "i-heroicons-building-library"
-      },
-      "asknature": {
-        "id": "asknature",
-        "name": "AskNature",
-        "description": "AI-советник по принятию решений, вдохновленных природой",
-        "icon": "i-heroicons-tree"
-      },
-      "healing-officer": {
-        "id": "healing-officer",
-        "name": "Chief Healing Officer",
-        "description": "AI-советник по альтернативному исцелению для целостного благополучия",
-        "icon": "i-heroicons-heart"
-      }
-    }
-  },
-
   "vision": {
     "title": "Наша Видение",
     "subtitle": "Узнайте, как мы переосмысливаем развитие ИИ через нашу уникальную методологию.",
-    "items": [
-      {
-        "id": "green-futures",
+    "items": {
+      "sustainability": {
+        "id": "sustainability",
         "title": "Зеленые Будущие",
         "description": "Разработка решений ИИ, ориентированных на экологическую устойчивость и гармонию с природой.",
         "icon": "i-heroicons-globe-americas",
+        "color": "purple",
         "image": "/images/green-futures.jpg"
       },
-      {
-        "id": "ai-as-servant",
+      "human-empowerment": {
+        "id": "human-empowerment",
         "title": "ИИ как Слуга",
         "description": "Создание систем ИИ, которые повышают человеческий потенциал, уважая автономию человека.",
         "icon": "i-heroicons-heart",
+        "color": "red",
         "image": "/images/ai-as-servant.jpg"
       },
-      {
-        "id": "global-peace",
+      "united-progress": {
+        "id": "united-progress",
         "title": "Мировой Мир",
         "description": "Содействие пониманию и сотрудничеству через решения, управляемые ИИ.",
         "icon": "i-heroicons-sparkles",
+        "color": "blue",
         "image": "/images/global-peace.jpg"
-      },
-      {
-        "id": "innovative-education",
-        "title": "Инновационное Образование",
-        "description": "Использование ИИ для улучшения образовательных опытов и доступности для всех.",
-        "icon": "i-heroicons-book-open",
-        "image": "/images/innovative-education.jpg"
       }
-    ]
+    }
+  },
+  "mission": {
+    "title": "Наша Миссия",
+    "subtitle": "Руководящие принципы для создания преобразующего будущего с ИИ",
+    "items": {
+      "ascending-consciousness": {
+        "id": "ascending-consciousness",
+        "title": "Восходящее Сознание",
+        "description": "Развитие ИИ за пределами вычислений для воплощения более глубокого осознания и понимания.",
+        "icon": "i-heroicons-lightbulb",
+        "color": "gold"
+      },
+      "restoring-authenticity": {
+        "id": "restoring-authenticity",
+        "title": "Восстановление Подлинности",
+        "description": "Реинтеграция истинных человеческих ценностей и природной мудрости в технологические инновации.",
+        "icon": "i-heroicons-leaf",
+        "color": "green"
+      },
+      "instilling-unity": {
+        "id": "instilling-unity",
+        "title": "Укрепление Единства",
+        "description": "Разработка решений ИИ, которые преодолевают разрывы и способствуют значимым глобальным связям.",
+        "icon": "i-heroicons-handshake",
+        "color": "blue"
+      }
+    }
   }
 }
