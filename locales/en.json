@@ -117,7 +117,7 @@
         "id": "asknature",
         "name": "AskNature",
         "description": "AI Nature-Inspired Decision-making Advisor.",
-        "icon": "i-heroicons-tree"
+        "icon": "i-heroicons-sun"
       },
       "healing-officer": {
         "id": "healing-officer",

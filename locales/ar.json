@@ -1,4 +1,3 @@
-
 {
   "menu": {
     "home": "الرئيسية",
@@ -86,7 +85,7 @@
           "name": "نظام الضمير",
           "description": "محاكاة صنع القرار المدفوع بالضمير في أنظمة الذكاء الاصطناعي",
           "icon": "i-heroicons-heart",
-          "color": "purple"
+          "color": "purple-600"
         },
         "communityos": {
           "id": "communityos",
@@ -100,7 +99,7 @@
           "name": "نظام الحوكمة",
           "description": "إطار أخلاقي للذكاء الاصطناعي لصنع القرار المسؤول",
           "icon": "i-heroicons-scale",
-          "color": "blue"
+          "color": "blue-600"
         },
         "natureos": {
           "name": "نظام الطبيعة",

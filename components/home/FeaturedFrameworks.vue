@@ -6,25 +6,31 @@
         {{ t('solutions.frameworks.subtitle') }}
       </p>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <FrameworkCard 
+        <div 
           v-for="id in ['conscienceos', 'communityos', 'governanceos', 'natureos']" 
           :key="id"
-          :framework="{
-            id,
-            title: t(`solutions.frameworks.items.${id}.name`),
-            description: t(`solutions.frameworks.items.${id}.description`),
-            icon: t(`solutions.frameworks.items.${id}.icon`),
-            color: t(`solutions.frameworks.items.${id}.color`)
-          }"
-        />
+          class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
+        >
+          <div :class="`w-12 h-12 rounded-lg 
+            bg-${t(`solutions.frameworks.items.${id}.color`) } flex items-center justify-center mb-4`">
+            <Icon :name="t(`solutions.frameworks.items.${id}.icon`)" class="w-6 h-6 text-white"/>
+          </div>
+          <h3 class="text-xl font-bold mb-2">{{ t(`solutions.frameworks.items.${id}.name`) }}</h3>
+          <p class="text-gray-600">{{ t(`solutions.frameworks.items.${id}.description`) }}</p>
+          <NuxtLink 
+            :to="`/solutions/${id}`"
+            class="inline-flex items-center mt-4 text-primary hover:text-primary-light transition-colors"
+          >
+            {{ t('solutions.frameworks.learn_more') }}
+            <div class="i-heroicons-arrow-right ml-1 w-4 h-4" />
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import FrameworkCard from '~/components/home/FrameworkCard.vue'
 const { t } = useI18n();
-
 const frameworks = computed(() => t('solutions.frameworks.items'));
 </script>

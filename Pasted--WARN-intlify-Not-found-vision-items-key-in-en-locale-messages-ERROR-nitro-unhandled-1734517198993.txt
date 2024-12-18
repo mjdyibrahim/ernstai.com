@@ -1,0 +1,115 @@
+
+ WARN  [intlify] Not found 'vision.items' key in 'en' locale messages.
+
+
+ ERROR  [nitro] [unhandledRejection] localStorage is not defined
+
+  at Proxy.initializeLanguage (stores/languageStore.ts:17:25)
+  at Proxy.wrappedAction (node_modules/pinia/dist/pinia.mjs:1399:26)
+  at plugins/languageManagement.ts:25:25
+  at Object.use (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3849:11)
+  at plugins/languageManagement.ts:24:18
+  at node_modules/nuxt/dist/app/nuxt.js:146:60
+  at fn (node_modules/nuxt/dist/app/nuxt.js:228:44)
+  at Object.callAsync (node_modules/unctx/dist/index.mjs:68:55)
+  at node_modules/nuxt/dist/app/nuxt.js:231:56
+  at Object.runWithContext (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3977:18)
+
+
+ WARN  [Icon] failed to load icon heroicons:lightbulb
+
+
+ WARN  [Icon] failed to load icon heroicons:leaf
+
+
+ WARN  [Icon] failed to load icon heroicons:handshake
+
+
+ WARN  [nuxt] Failed to stringify dev server logs. Received DevalueError: Cannot stringify arbitrary non-POJOs. You can define your own reducer/reviver for rich types following the instructions in https://nuxt.com/docs/api/composables/use-nuxt-app#payload.
+
+
+ WARN  [intlify] Not found 'vision.items' key in 'en' locale messages.
+
+
+ ERROR  [nitro] [unhandledRejection] localStorage is not defined
+
+  at Proxy.initializeLanguage (stores/languageStore.ts:17:25)
+  at Proxy.wrappedAction (node_modules/pinia/dist/pinia.mjs:1399:26)
+  at plugins/languageManagement.ts:25:25
+  at Object.use (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3849:11)
+  at plugins/languageManagement.ts:24:18
+  at node_modules/nuxt/dist/app/nuxt.js:146:60
+  at fn (node_modules/nuxt/dist/app/nuxt.js:228:44)
+  at Object.callAsync (node_modules/unctx/dist/index.mjs:68:55)
+  at node_modules/nuxt/dist/app/nuxt.js:231:56
+  at Object.runWithContext (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3977:18)
+
+
+ WARN  [Icon] failed to load icon heroicons:lightbulb
+
+
+ WARN  [Icon] failed to load icon heroicons:leaf
+
+
+ WARN  [Icon] failed to load icon heroicons:handshake
+
+
+ WARN  [nuxt] Failed to stringify dev server logs. Received DevalueError: Cannot stringify arbitrary non-POJOs. You can define your own reducer/reviver for rich types following the instructions in https://nuxt.com/docs/api/composables/use-nuxt-app#payload.
+
+
+ WARN  [intlify] Not found 'vision.items' key in 'en' locale messages.
+
+
+ ERROR  [nitro] [unhandledRejection] localStorage is not defined
+
+  at Proxy.initializeLanguage (stores/languageStore.ts:17:25)
+  at Proxy.wrappedAction (node_modules/pinia/dist/pinia.mjs:1399:26)
+  at plugins/languageManagement.ts:25:25
+  at Object.use (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3849:11)
+  at plugins/languageManagement.ts:24:18
+  at node_modules/nuxt/dist/app/nuxt.js:146:60
+  at fn (node_modules/nuxt/dist/app/nuxt.js:228:44)
+  at Object.callAsync (node_modules/unctx/dist/index.mjs:68:55)
+  at node_modules/nuxt/dist/app/nuxt.js:231:56
+  at Object.runWithContext (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3977:18)
+
+
+ WARN  [Icon] failed to load icon heroicons:lightbulb
+
+
+ WARN  [Icon] failed to load icon heroicons:leaf
+
+
+ WARN  [Icon] failed to load icon heroicons:handshake
+
+
+ WARN  [nuxt] Failed to stringify dev server logs. Received DevalueError: Cannot stringify arbitrary non-POJOs. You can define your own reducer/reviver for rich types following the instructions in https://nuxt.com/docs/api/composables/use-nuxt-app#payload.
+
+
+ WARN  [intlify] Not found 'vision.items' key in 'en' locale messages.
+
+
+ ERROR  [nitro] [unhandledRejection] localStorage is not defined
+
+  at Proxy.initializeLanguage (stores/languageStore.ts:17:25)
+  at Proxy.wrappedAction (node_modules/pinia/dist/pinia.mjs:1399:26)
+  at plugins/languageManagement.ts:25:25
+  at Object.use (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3849:11)
+  at plugins/languageManagement.ts:24:18
+  at node_modules/nuxt/dist/app/nuxt.js:146:60
+  at fn (node_modules/nuxt/dist/app/nuxt.js:228:44)
+  at Object.callAsync (node_modules/unctx/dist/index.mjs:68:55)
+  at node_modules/nuxt/dist/app/nuxt.js:231:56
+  at Object.runWithContext (node_modules/@vue/runtime-core/dist/runtime-core.cjs.js:3977:18)
+
+
+ WARN  [Icon] failed to load icon heroicons:lightbulb
+
+
+ WARN  [Icon] failed to load icon heroicons:leaf
+
+
+ WARN  [Icon] failed to load icon heroicons:handshake
+
+
+ WARN  [nuxt] Failed to stringify dev server logs. Received DevalueError: Cannot stringify arbitrary non-POJOs. You can define your own reducer/reviver for rich types following the instructions in https://nuxt.com/docs/api/composables/use-nuxt-app#payload.
