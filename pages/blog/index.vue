@@ -1,6 +1,9 @@
 
 <template>
-  <main class="pt-20 min-h-screen flex flex-col">
+  <div v-if="pending" class="min-h-screen flex items-center justify-center">
+    <div class="animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
+  </div>
+  <main v-else class="pt-20 min-h-screen flex flex-col">
     <section class="gradient-bg py-20">
       <div class="container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Blog</h1>
@@ -10,10 +13,7 @@
 
     <section class="py-16 flex-grow">
       <div class="container mx-auto px-4">
-        <div v-if="pending" class="flex justify-center items-center py-12">
-          <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary"></div>
-        </div>
-        <div v-else class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <article v-for="post in posts" :key="post._path" 
                    class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <img :src="post.image" :alt="post.title" class="w-full h-48 object-cover">
