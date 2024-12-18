@@ -26,11 +26,5 @@
 import FrameworkCard from '~/components/home/FrameworkCard.vue'
 const { t } = useI18n();
 
-// Get frameworks from i18n
-const frameworks = computed(() => {
-  return Object.keys(t('solutions.frameworks.items')).reduce((acc, key) => {
-    acc[key] = t(`solutions.frameworks.items.${key}`);
-    return acc;
-  }, {});
-});
+const frameworks = computed(() => t('solutions.frameworks.items'));
 </script>

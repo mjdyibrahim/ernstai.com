@@ -25,12 +25,6 @@ import IconNewUnity from '~/components/icons/IconNewUnity.vue'
 
 const { t } = useI18n();
 
-// Dynamically get all mission items
-const pillars = computed(() => {
-  return Object.keys(t('mission.items')).reduce((acc, key) => {
-    acc[key] = t(`mission.items.${key}`);
-    return acc;
-  }, {});
-});
+const pillars = computed(() => t('mission.items'));
 
 </script>
