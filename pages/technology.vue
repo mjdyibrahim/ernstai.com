@@ -27,12 +27,14 @@
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-4">Our Integrations</h2>
         <p class="text-center text-gray-600 mb-8">We integrate with 1000+ technology platforms including:</p>
-        <div class="flex overflow-hidden">
-          <div class="flex animate-marquee">
-            <img v-for="(logo, index) in logos" :key="index" :src="`/images/logos_integration/${logo}`" :alt="logo.split('.')[0]" class="marquee-logo" />
-          </div>
-          <div class="flex animate-marquee">
-            <img v-for="(logo, index) in logos" :key="index" :src="`/images/logos_integration/${logo}`" :alt="logo.split('.')[0]" class="marquee-logo" />
+        <div class="marquee-container">
+          <div class="marquee-track">
+            <div class="marquee-content">
+              <img v-for="(logo, index) in logos" :key="`first-${index}`" :src="`/images/logos_integration/${logo}`" :alt="logo.split('.')[0]" class="marquee-logo" />
+            </div>
+            <div class="marquee-content">
+              <img v-for="(logo, index) in logos" :key="`second-${index}`" :src="`/images/logos_integration/${logo}`" :alt="logo.split('.')[0]" class="marquee-logo" />
+            </div>
           </div>
         </div>
       </div>
@@ -259,19 +261,36 @@ const logos = [
 </script>
 
 <style scoped>
-.animate-marquee {
-  animation: marquee 20s linear infinite;
-  white-space: nowrap; /* Prevent line breaks */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+}
+
+.marquee-logo {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0 20px;
 }
 
 @keyframes marquee {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-50%); }
 }
 
-.marquee-logo {
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 20px; /* Adjust margin for spacing */
+.marquee-track:hover {
+  animation-play-state: paused;
 }
 </style>
