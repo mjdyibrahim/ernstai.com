@@ -24,8 +24,8 @@ export const useLanguageStore = defineStore("language", {
       this.currentLanguage = language;
       this.isRTL = language === "ar";
 
-      const { setLocale } = useI18n();
-      await setLocale(language);
+      const i18n = useNuxtApp().$i18n;
+      await i18n.setLocale(language);
 
       localStorage.setItem("language", language);
       document.documentElement.dir = this.isRTL ? "rtl" : "ltr";
