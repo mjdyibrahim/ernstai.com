@@ -25,8 +25,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   };
 
   nuxtApp.hook('app:mounted', async () => {
-    const initialLanguage = detectInitialLanguage();
-    await languageStore.setLanguage(initialLanguage);
+    await languageStore.initializeLanguage();
   });
 
   nuxtApp.$router.beforeEach(async (to, from, next) => {

@@ -10,6 +10,22 @@ export const useLanguageStore = defineStore("language", {
     isRTL: false,
   }),
 
+  actions: {
+    initializeLanguage() {
+      const savedLang = localStorage.getItem("language");
+      const browserLang = navigator.language.split("-")[0];
+      const defaultLang = "en";
+      const supportedLanguages = ["en", "ar", "ru"];
+
+      const initialLang = (
+        (supportedLanguages.includes(savedLang) && savedLang) ||
+        (supportedLanguages.includes(browserLang) && browserLang) ||
+        defaultLang
+      ) as SupportedLanguage;
+
+      return this.setLanguage(initialLang);
+    },
+
   getters: {
     getCurrentLanguage: (state) => state.currentLanguage,
     getIsRTL: (state) => state.isRTL,
