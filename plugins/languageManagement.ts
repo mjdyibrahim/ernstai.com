@@ -12,12 +12,17 @@ export default defineNuxtPlugin((nuxtApp) => {
     }
   };
 
-  nuxtApp.hook('page:finish', () => {
+  nuxtApp.hook('page:start', async () => {
     const route = useRoute();
     const urlLang = route.path.split("/")[1];
+    const savedLang = process.client ? localStorage.getItem("language") : null;
+    
     if (["en", "ar", "ru"].includes(urlLang)) {
-      languageStore.setLanguage(urlLang, false);
+      await languageStore.setLanguage(urlLang, true);
       updateDocumentDirection(urlLang);
+    } else if (savedLang && ["en", "ar", "ru"].includes(savedLang)) {
+      await languageStore.setLanguage(savedLang, true);
+      updateDocumentDirection(savedLang);
     }
   });
 
