@@ -10,6 +10,11 @@ export const useLanguageStore = defineStore("language", {
     isRTL: false,
   }),
 
+  getters: {
+    getCurrentLanguage: (state) => state.currentLanguage,
+    getIsRTL: (state) => state.isRTL,
+  },
+
   actions: {
     initializeLanguage() {
       const savedLang = localStorage.getItem("language");
@@ -26,12 +31,6 @@ export const useLanguageStore = defineStore("language", {
       return this.setLanguage(initialLang);
     },
 
-  getters: {
-    getCurrentLanguage: (state) => state.currentLanguage,
-    getIsRTL: (state) => state.isRTL,
-  },
-
-  actions: {
     async setLanguage(language: SupportedLanguage) {
       if (!["en", "ar", "ru"].includes(language)) {
         language = "en";
@@ -48,6 +47,6 @@ export const useLanguageStore = defineStore("language", {
       document.documentElement.lang = language;
 
       return language;
-    },
-  },
+    }
+  }
 });
