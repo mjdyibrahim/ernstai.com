@@ -72,5 +72,85 @@
         "color": "blue"
       }
     }
+  },
+  "solutions": {
+    "title": "Наши Решения",
+    "subtitle": "Инновационные фреймворки и продукты ИИ для сознательного будущего",
+    "frameworks": {
+      "title": "Наши Фреймворки ИИ",
+      "subtitle": "Наши фреймворки ИИ - это строительные блоки для достижения нашего видения устойчивости, расширения возможностей и единства",
+      "learn_more": "Узнать больше",
+      "items": {
+        "conscienceos": {
+          "id": "conscienceos",
+          "name": "ConscienceOS",
+          "description": "Моделирование принятия решений на основе совести в системах ИИ",
+          "icon": "i-heroicons-heart",
+          "color": "purple"
+        },
+        "communityos": {
+          "id": "communityos",
+          "name": "CommunityOS",
+          "description": "Создание систем ИИ, укрепляющих человеческие связи",
+          "icon": "i-heroicons-users",
+          "color": "primary"
+        },
+        "governanceos": {
+          "id": "governanceos",
+          "name": "GovernanceOS",
+          "description": "Этический фреймворк ИИ для ответственного принятия решений",
+          "icon": "i-heroicons-scale",
+          "color": "blue"
+        },
+        "natureos": {
+          "name": "NatureOS",
+          "description": "Биоинспирированный фреймворк ИИ, который учится у мудрости природы",
+          "icon": "i-heroicons-sun",
+          "color": "green"
+        }
+      }
+    }
+  },
+  "products": {
+    "title": "Продукты",
+    "learn_more": "Узнать больше",
+    "items": {
+      "lyla": {
+        "id": "lyla",
+        "name": "Lyla",
+        "description": "ИИ-помощник для путешествий, обогащающий ваше путешествие осознанным опытом",
+        "icon": "i-heroicons-globe-alt"
+      },
+      "senu": {
+        "id": "senu",
+        "name": "Senu",
+        "description": "ИИ-копилот для предпринимателей, поддерживающий осознанное развитие бизнеса",
+        "icon": "i-heroicons-briefcase"
+      },
+      "jarvis": {
+        "id": "jarvis",
+        "name": "Jarvis",
+        "description": "ИИ-компаньон для повышения продуктивности, улучшающий баланс работы и жизни",
+        "icon": "i-heroicons-cpu-chip"
+      },
+      "wazir": {
+        "id": "wazir",
+        "name": "Wazir",
+        "description": "ИИ-помощник по управлению для этических лидерских решений",
+        "icon": "i-heroicons-building-library"
+      },
+      "asknature": {
+        "id": "asknature",
+        "name": "AskNature",
+        "description": "Советник по принятию решений, вдохновленный природой",
+        "icon": "i-heroicons-tree"
+      },
+      "healing-officer": {
+        "id": "healing-officer",
+        "name": "Chief Healing Officer",
+        "description": "ИИ-советник по альтернативному исцелению для целостного благополучия",
+        "icon": "i-heroicons-heart"
+      }
+    }
   }
 }

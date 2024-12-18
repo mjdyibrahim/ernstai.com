@@ -72,5 +72,85 @@
         "color": "blue"
       }
     }
+  },
+  "solutions": {
+    "title": "حلولنا",
+    "subtitle": "أطر وحلول الذكاء الاصطناعي المبتكرة لمستقبل واعي",
+    "frameworks": {
+      "title": "أطر الذكاء الاصطناعي لدينا",
+      "subtitle": "أطر الذكاء الاصطناعي لدينا هي اللبنات الأساسية لتحقيق رؤيتنا للاستدامة والتمكين والوحدة",
+      "learn_more": "اعرف المزيد",
+      "items": {
+        "conscienceos": {
+          "id": "conscienceos",
+          "name": "نظام الضمير",
+          "description": "محاكاة صنع القرار المدفوع بالضمير في أنظمة الذكاء الاصطناعي",
+          "icon": "i-heroicons-heart",
+          "color": "purple"
+        },
+        "communityos": {
+          "id": "communityos",
+          "name": "نظام المجتمع",
+          "description": "بناء أنظمة ذكاء اصطناعي تقوي الروابط الإنسانية",
+          "icon": "i-heroicons-users",
+          "color": "primary"
+        },
+        "governanceos": {
+          "id": "governanceos",
+          "name": "نظام الحوكمة",
+          "description": "إطار أخلاقي للذكاء الاصطناعي لصنع القرار المسؤول",
+          "icon": "i-heroicons-scale",
+          "color": "blue"
+        },
+        "natureos": {
+          "name": "نظام الطبيعة",
+          "description": "إطار ذكاء اصطناعي مستوحى من الطبيعة يتعلم من حكمة الطبيعة",
+          "icon": "i-heroicons-sun",
+          "color": "green"
+        }
+      }
+    }
+  },
+  "products": {
+    "title": "المنتجات",
+    "learn_more": "اعرف المزيد",
+    "items": {
+      "lyla": {
+        "id": "lyla",
+        "name": "ليلى",
+        "description": "مساعد سفر ذكي يثري رحلتك بتجارب سفر واعية",
+        "icon": "i-heroicons-globe-alt"
+      },
+      "senu": {
+        "id": "senu",
+        "name": "سينو",
+        "description": "مساعد رائد الأعمال الذكي لدعم تطوير الأعمال الواعية",
+        "icon": "i-heroicons-briefcase"
+      },
+      "jarvis": {
+        "id": "jarvis",
+        "name": "جارفيس",
+        "description": "رفيق الإنتاجية الذكي لتعزيز التوازن بين العمل والحياة",
+        "icon": "i-heroicons-cpu-chip"
+      },
+      "wazir": {
+        "id": "wazir",
+        "name": "وزير",
+        "description": "مساعد الحوكمة الذكي للقرارات القيادية الأخلاقية",
+        "icon": "i-heroicons-building-library"
+      },
+      "asknature": {
+        "id": "asknature",
+        "name": "اسأل الطبيعة",
+        "description": "مستشار صنع القرار المستوحى من الطبيعة",
+        "icon": "i-heroicons-tree"
+      },
+      "healing-officer": {
+        "id": "healing-officer",
+        "name": "مسؤول الشفاء",
+        "description": "مستشار العلاج البديل الذكي للعافية الشاملة",
+        "icon": "i-heroicons-heart"
+      }
+    }
   }
 }
