@@ -1,5 +1,6 @@
+
 <template>
-  <main class="pt-20">
+  <main class="pt-20 min-h-screen flex flex-col">
     <section class="gradient-bg py-20">
       <div class="container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Blog</h1>
@@ -7,9 +8,12 @@
       </div>
     </section>
 
-    <section class="py-16">
+    <section class="py-16 flex-grow">
       <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div v-if="pending" class="flex justify-center items-center py-12">
+          <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary"></div>
+        </div>
+        <div v-else class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <article v-for="post in posts" :key="post._path" 
                    class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <img :src="post.image" :alt="post.title" class="w-full h-48 object-cover">
@@ -30,7 +34,7 @@
 </template>
 
 <script setup>
-const { data: posts } = await useAsyncData('posts', () => 
+const { data: posts, pending } = await useAsyncData('posts', () => 
   queryContent('blog')
     .sort({ date: -1 })
     .find()
